@@ -1,0 +1,807 @@
+/*home*/
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #F5EBE0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.bannerContainer {
+  background-color:#AFBD89;
+  padding-top: 30px;
+}
+
+.navContainer {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttonID{
+  background: #748856;
+  font-family: "DM Sans";
+  width: 10%;
+  color: #F5EBE0;
+  font-size: 15px;
+}
+
+.logopic {
+  width: 100px;
+  height: 100px;
+}
+
+li {
+  display: inline-block;
+  padding:10px;
+  margin: 7px;
+  border: 3px white;
+  border-style: double;
+  font-family: "DM Sans";
+  background-color: #748856;
+  font-size: 32px;
+  text-decoration: none;
+  transition: transform .2s;
+}
+
+nav{
+ justify-content: space-between;
+}
+
+a{
+    color: #FAF8F5;
+    text-decoration: none }
+
+li:hover {
+  background-color: #385323;
+  transform: scale(1.15); 
+}
+
+.climativeHeader{ 
+  display: flex;
+  justify-content: center;
+  font-family: "DM Sans";
+  font-size: 42px;
+  color: #FAF8F5;
+  text-shadow: 0px 0px 10px #000000, 0px 0px 7px #385323;
+  align-content: center;
+  background-image: url('https://i.pinimg.com/originals/34/69/f5/3469f579034feb8cc90f3702abe06f13.gif');
+  background-color: #385323; /* Used if the image is unavailable */
+  height: 35%;/* set a specified height */
+  width: 100%
+  background-position: 2% 50%; /* center the image */
+  background-repeat: no-repeat; /* do not repeat the image */
+  background-size: cover; /* resize the background image to cover the entire container */
+  padding: 70px;
+  padding-top: 90px;
+  padding-bottom:40px;
+  margin: 30px;
+margin-bottom: 50px;
+}
+
+.homeImages {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cliIMG {
+  height: 230px;
+  width: 230px;
+  border: 3px #685a4b solid;
+  border-radius: 20px;
+  transition: transform .2s;
+}
+
+.cliIMG:hover {
+  transform: scale(1.15); 
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.climateHeader {
+  width: 24%;  
+  font-size: 36px;
+  font-family: "DM Sans";
+  color: #303336;
+  text-align: center;
+}
+
+.climateContainer {
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-evenly;
+}
+
+.climateText {
+  font-size: 28px;
+  font-family: "DM Sans";
+  width: 30%;
+  background-color: #AFBD894D;
+  padding: 10px;
+  color: #303336;
+}
+
+.donateContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.donateButton{
+  padding: 7px;
+  color: #eee;
+  border: 1px #F5EBE0 solid;
+  background-color: #413B34;
+  font-family: "DM Sans";
+  border-radius: 10px;
+  font: 5px;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.donateButton:hover {
+  background-color:#978A7D;
+}
+
+
+/*do we need the form below? if yes delete this comment lol*/
+form {
+  margin-top: 35px;
+  background: #413B34;
+  margin: 5px;
+  padding: 25px;
+  font-size: 10px;
+  font-family: "DM Sans";
+  border-radius: 20px;
+  background-color: transparent;
+}
+
+/*below is about pg css*/
+
+.aboutPage {
+  display: flex;
+  justify-content:space-around space-evenly;
+  font-family: "DM Sans";
+}
+
+.leftAbout {
+  width: 49%;
+  padding: 25px;
+  margin: 20px;
+  font-size: 46px;
+  color: #385323;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutClimative{
+  transition: transform .2s;
+  padding-left: 30px;
+}
+
+.aboutClimative:hover{
+  transform: scale(1.10); 
+  color: #413B34
+  align-content: center;
+}
+
+.rightAbout {
+  width: 49%;
+  padding: 40px;
+  background: #AFBD894D;
+  color: #303336;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.learnText {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-bottom:50px;
+}
+
+.resourceBox{
+  display: flex;
+  justify-content: center;
+}
+
+.resources{
+   padding: 20px 70px;
+  margin: 40px 30px 20px;
+  color: #eee;
+  background-color: #413B34;
+  border: 1px solid #413B34;
+  font-family: "DM Sans";
+  font-size: 46px;
+
+}
+
+.aboutPageTwo {
+  display: flex;
+  justify-content:space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-family: "DM Sans";
+  padding-left: 30px;
+  margin-top: 40px;
+}
+
+.resourceArt{
+  width: 45%;
+  padding: 40px;
+  background: #AFBD894D;
+  color: #303336;
+  display: flex;
+  flex-direction: column;
+}
+
+.abHeader1{
+  font-size: 46px;
+  transition: transform .2s;
+  align-content: center;
+  padding-left: 30px;
+}
+
+.abHeader1:hover{
+  transform: scale(1.05); 
+}
+
+.abHeader2{
+  font-size: 40px;
+  transition: transform .2s;
+  align-content: center;
+}
+
+.abHeader2:hover{
+  transform: scale(1.03); 
+  
+}
+.artLinks{
+  display: flex;
+  flex-direction: column;
+  align-content: space-between stretch;
+  justify-content: space-around stretch;
+  flex-wrap: wrap;
+
+}
+
+.articles{
+  color:#303336;
+  font-size: 36px;
+  text-align: center;
+  border: 2px solid;
+  padding: 20px;
+  margin: 20px 0px;
+}
+
+.articles:hover{
+   background: #AFBD894D;
+}
+
+.npoResources{
+  font-family: "DM Sans";
+  width: 45%;
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  float: left;
+}
+
+.npo{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column space-evenly;
+  justify-content: center;
+  float: left;
+  margin: -80px auto;
+  width: 70%;
+}
+
+.npoIMG{
+  width: 300px;
+  height: 200px;
+  object-fit: contain;
+  transition: transform .2s;
+}
+
+.npoIMG:hover{
+  transform: scale(1.15); 
+}
+
+.npoTitle{
+  display: flex;
+  float: right;
+  align-content: center;
+  width: 30%;
+}
+
+.npoSuggestTitle{
+  writing-mode: vertical-rl;
+  text-align: center;
+  font-size: 46px;
+}
+
+
+/*below is the css for Act Now*/
+h4 {
+  font-size: 30px;
+  font-family: "DM Sans";
+  color: #413B34;
+  text-align: center;
+}
+
+.actIMGOne {
+  border: 3px #685a4b solid;
+  border-radius: 20px;
+  height:  250px;
+  width: 250px;
+}
+
+.actContainerOne {
+  display: flex;
+  justify-content: left;
+  margin: 40px;
+}
+
+.actTextOne {
+  font-size: 27px;
+  font-family: "DM Sans";
+  padding:30px;
+}
+
+.actIMGTwo {
+  border: 3px #685a4b solid;
+  border-radius: 20px;
+  height:  250px;
+  width: 250px;
+}
+
+.actContainerTwo {
+  display: flex;
+  justify-content: left;
+  margin: 40px;
+}
+
+.actTextTwo {
+  font-size: 27px;
+  font-family: "DM Sans";
+  padding:30px;
+}
+
+.actIMGThree {
+  border: 3px #685a4b solid;
+  border-radius: 20px;
+  height:  250px;
+  width: 250px;
+}
+
+.actContainerThree {
+  display: flex;
+  justify-content: left;
+  margin: 40px;
+}
+
+.actTextThree {
+  font-size: 27px;
+  font-family: "DM Sans";
+  padding:30px;
+}
+
+.actIMGFour {
+  border: 3px #685a4b solid;
+  border-radius: 20px;
+  height:  250px;
+  width: 250px;
+}
+
+.actContainerFour {
+  display: flex;
+  justify-content: left;
+  margin: 40px;
+}
+
+.actTextFour {
+  font-size: 27px;
+  font-family: "DM Sans";
+  padding:30px;
+}
+
+.actIMGFive {
+  border: 3px #685a4b solid;
+  border-radius: 20px;
+  height:  250px;
+  width: 250px;
+}
+
+.actContainerFive {
+  display: flex;
+  justify-content: left;
+  margin: 40px;
+}
+
+.actTextFive {
+  font-size: 27px;
+  font-family: "DM Sans";
+  padding:30px;
+  display:flex;
+}
+
+.actIMGSix {
+  border: 3px #685a4b solid;
+  border-radius: 20px;
+  height:  250px;
+  width: 250px;
+}
+
+.actContainerSix {
+  display: flex;
+  justify-content: left;
+  margin: 40px;
+}
+
+.actTextSix {
+  font-size: 27px;
+  font-family: "DM Sans";
+  padding:30px;
+  display:flex;
+}
+
+.actIMGSeven {
+  border: 3px #685a4b solid;
+  border-radius: 20px;
+  height:  250px;
+  width: 250px;
+  display:flex;
+  margin-bottom: 40px;
+}
+
+.actContainerSeven {
+  display: flex;
+  margin: 40px;
+  justify-content: left;
+}
+
+.actTextSeven {
+  font-size: 27px;
+  font-family: "DM Sans";
+  padding:30px;
+  display:flex
+}
+
+/*actnow page pt 2*/
+.driveContainer {
+  background-color: #AFBD894D;
+  border: 2px #685a4b solid;
+  padding: 20px;
+  height: 100px;
+  padding-bottom: 30px;
+margin: 60px;
+}
+.plasticContainer {
+  background-color: #AFBD894D;
+  border: 2px #685a4b solid;
+  padding: 20px;
+  height: 100px;
+  padding-bottom: 30px;
+margin: 60px;
+}
+.greenContainer {
+  background-color: #AFBD894D;
+  border: 2px #685a4b solid;
+  padding: 20px;
+  height: 100px;
+  padding-bottom: 30px;
+margin: 60px;
+}
+.rrrrContainer {
+  background-color: #AFBD894D;
+  border: 2px #685a4b solid;
+  padding: 20px;
+  height: 100px;
+  padding-bottom: 30px;
+margin: 60px;
+}
+.energyContainer {
+  background-color: #AFBD894D;
+  border: 2px #685a4b solid;
+  padding: 20px;
+  height: 100px;
+  padding-bottom: 30px;
+margin: 60px;
+}
+.ecoContainer {
+  background-color: #AFBD894D;
+  border: 2px #685a4b solid;
+  padding: 20px;
+  height: 100px;
+  padding-bottom: 30px;
+margin: 60px;
+}
+.speakContainer {
+  background-color: #AFBD894D;
+  border: 2px #685a4b solid;
+  padding: 20px;
+  height: 100px;
+  padding-bottom: 30px;
+margin: 60px;
+}
+
+
+/*below is the css for Meet the Team*/
+
+/*.fillerContainer {
+  background-color: #385323;
+}
+
+h2 {
+  color: #385323;
+  font-size: 36px;
+}*/
+
+.nameContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nameText {
+  color: #413B34;
+  font-size: 37px;
+}
+
+.imgContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pplIMG {
+  height: 300px;
+  width: 300px;
+  border: 3px #685a4b solid;
+  border-radius: 20px;
+  transition: transform .2s;
+}
+
+.pplIMG:hover {
+  transform: scale(1.15); 
+}
+
+.introContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-direction: row;
+  font-family: "DM Sans";
+}
+
+.pplIntro {
+  font-size: 28px;
+  width: 20%;
+  background-color: #AFBD894D;
+  padding: 15px;
+  color: #303336;
+  text-align: center;
+}
+
+.nameContainer {
+  display: flex;
+  justify-content: space-around;
+  font-family: "DM Sans";
+}
+
+.nameText {
+  width: 24%;  
+  font-size: 36px;
+  color: #303336;
+  text-align: center;
+}
+
+.klossyLogo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.klossyIMG{
+  height: 200px;
+  width: 600px;
+  object-fit: cover;
+}
+
+
+/*FOR BANNERS IN OTHER PAGES: */
+.aboutMainHeader {
+  display: flex;
+  justify-content: center;
+  font-family: "DM Sans";
+  font-size: 42px;
+  color: #FAF8F5;
+  text-shadow: 0px 0px 10px #000000, 0px 0px 7px #385323;
+  align-content: center;
+  background-image: url('https://i.pinimg.com/originals/8a/75/38/8a7538da48a9715bc1b8f4f8907c97a2.gif');
+  background-color: #385323; /* Used if the image is unavailable */
+  background-position: 2% 65%; /* center the image */
+  background-repeat: no-repeat; /* do not repeat the image */
+  background-size: cover; /* resize the background image to cover the entire container */
+  height: 35%;/* set a specified height */
+  width: 100%
+  padding: 70px;
+  padding-top: 90px;
+  padding-bottom: 40px;
+  margin: 30px;
+margin-bottom: 50px;
+}
+
+.headerActivitiesOne {
+  display: flex;
+  justify-content: center;
+  font-family: "DM Sans";
+  font-size: 42px;
+  color: #FAF8F5;
+  text-shadow: 0px 0px 10px #000000, 0px 0px 7px #385323;
+  align-content: center;
+  background-image: url('https://i.pinimg.com/originals/c3/d9/3f/c3d93f01c5e8a707d93f01bbbe414925.gif');
+  background-color: #385323; /* Used if the image is unavailable */
+  background-position: 2% 65%; /* center the image */
+  background-repeat: no-repeat; /* do not repeat the image */
+  background-size: cover; /* resize the background image to cover the entire container */
+  height: 35%;/* set a specified height */
+  width: 100%
+  padding: 70px;
+  padding-top: 90px;
+  padding-bottom: 40px;
+  margin: 30px;
+margin-bottom: 50px;
+}
+
+.headerActOne {
+  display: flex;
+  justify-content: center;
+  font-family: "DM Sans";
+  font-size: 27px;
+  color: #FAF8F5;
+  text-shadow: 0px 0px 10px #000000, 0px 0px 7px #385323;
+  align-content: center;
+  background-image: url('https://i.pinimg.com/originals/c6/29/d7/c629d70f467e722ef2b5a44b9fce08d4.gif');
+  background-color: #385323; /* Used if the image is unavailable */
+  background-position: 2% 65%; /* center the image */
+  background-repeat: no-repeat; /* do not repeat the image */
+  background-size: cover; /* resize the background image to cover the entire container */
+  height: 35%;/* set a specified height */
+  width: 100%
+  padding: 70px;
+  padding-top: 90px;
+  padding-bottom: 40px;
+  margin: 30px;
+margin-bottom: 50px;
+}
+
+.headerMTTOne {
+  display: flex;
+  justify-content: center;
+  font-family: "DM Sans";
+  font-size: 43px;
+  color: #FAF8F5;
+  text-shadow: 0px 0px 10px #000000, 0px 0px 7px #385323;
+  align-content: center;
+  background-image: url('https://i.pinimg.com/originals/4e/a2/3c/4ea23c40514321edd9b2b4cb47f1880e.gif');
+  background-color: #385323; /* Used if the image is unavailable */
+  background-position: 2% 65%; /* center the image */
+  background-repeat: no-repeat; /* do not repeat the image */
+  background-size: cover; /* resize the background image to cover the entire container */
+  height: 35%;/* set a specified height */
+  width: 100%
+  padding: 70px;
+  padding-top: 90px;
+  padding-bottom: 40px;
+  margin: 30px;
+margin-bottom: 50px;
+}
+
+
+/*activities*/
+.quizzes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin: 10px;
+  background: #90B9BB;
+  color: #303336;
+  font-family: "DM Sans";
+}
+.quizName{
+  text-align:center;
+}
+.quiz1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  padding: 10px;
+  margin: 10px;
+}
+.quiz2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 30%;
+  margin: 10px;
+}
+
+.froggyIMG{
+  height: 300px;
+  width: 600px;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.playlists {
+  padding: 40px;
+}
+
+.playlist1 {
+  font-size: 30px;
+  /*border: 3px black solid;*/
+  text-align: center;
+padding: 15px;
+  font-family: DM sans;
+}
+.playlist2 {
+  font-size: 30px;
+  /*border: 3px solid;*/
+  text-align: center;
+padding: 15px;
+  font-family: DM sans;
+}
+
+.playlist3 {
+  font-size: 30px;
+ /*border: 3px solid;*/
+  text-align: center;
+padding: 15px;
+  font-family: DM sans;
+}
+
+.playlist4 {
+font-size: 30px;
+ /* border: 3px solid;*/
+  text-align: center;
+padding: 15px;
+  font-family: DM sans;
+}
+
+.playlists {
+  text-align: center;
+  padding: 15px;
+}
+
+.playlistsAll {
+font-size: 55px;
+  border: 3px solid;
+  text-align: center;
+padding: 20px;
+  font-family: DM sans;
+  background-color: #e9e8d3;
+  color: #68615a;
+}
+
+.activheader {
+  font-size: 55px;
+  border: 3px solid;
+  text-align: center;
+  padding: 20px;
+  font-family: DM sans;
+  background-color: #e9e8d3;
+  color: #68615a;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=DM Sans' rel='stylesheet'>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+
+  <!-- banner -->
+  <div class= bannerContainer>
+
+<!--im going to make the logo just a regular img with a link insetad of the button to make room for the nav -->
+<!-- <button class="buttonID"> -->
+  <div class="navContainer">
+  <img class="logopic" src="data:image/png;base64,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">
+<!--  </button> -->
+
+    <nav>
+       <li><a href="index.html">HOME</a> </li> 
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="actnow.html">ACT NOW!</a></li>
+      <li><a href="activities.html">ACTIVITIES</a></li>
+      <li><a href="meettheteam.html">MEET THE TEAM!</a></li>
+     </nav>
+   </div>
+</div>
+
+<div class="aboutMainHeader">
+   <h1 style="font-family:DM sans">ABOUT US</h1>
+</div>
+  
+<!-- actual page -->
+  
+<div class= "aboutPage">
+  <div class= "leftAbout">
+    <p class= "aboutClimative"><strong>Climative:</strong> Initiative to Educate & Inform about Climate Change. </p>
+  </div>
+  <div class= "rightAbout">
+    <h1 class= "abHeader1">Learn about the Climative mission: </h1>
+  <p class= "learnText">Climative was founded by a group of high school scholars from Kode With Klossy 2022 camp who wanted to shed light on climate change and the importance of people's roles in helping prevent it. This website was created to help others learn about the seriousness of the problem, and learn that there are various different ways to help.</p>
+  
+ </div>
+</div>
+  
+  <div class= "resourceBox">
+       <button class= "resources">Resources</Button> 
+  </div>
+  
+<div class= "aboutPageTwo">
+
+  <div class= "resourceArt">
+    <h1 class= "abHeader2">Articles</h1>
+    <div class="artLinks"> 
+      <a class="articles" href="https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-climate-change-k4.html" target="_blank">What is Climate Change?</a>
+      <a class="articles" href="https://www.noaa.gov/education/resource-collections/climate/climate-change-impacts#:~:text=Climate%20change%20is%20already%20impacting,cause%20direct%20and%20indirect%20deaths." target="_blank">Why is Climate Change Important?</a>
+      <a class="articles" href="https://www.edf.org/climate/why-fighting-climate-change-so-urgent" target="_blank">How is it an Urgent Issue?</a>
+      <a class="articles" href="https://www.un.org/actnow" target="_blank">How to Take Action Now?</a>
+      
+  </div>
+  </div>
+  
+  <div class="npoResources">
+     <section class="npo"> 
+      <a href="https://www.greenpeace.org/usa/" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Greenpeace_logo.svg/2560px-Greenpeace_logo.svg.png" class="npoIMG">
+      </a>
+      <a href="https://fridaysforfuture.org/" target="_blank">
+          <img src="https://fridaysforfuture.org/wp-content/uploads/2020/04/FFF_logo_x960.png"class="npoIMG">
+      </a>
+      <a href="https://350.org/" target="_blank">
+          <img src="https://350.org/wp-content/uploads/2017/05/350-logo-v3-black.png" class="npoIMG">
+      </a>
+      <a href="https://acespace.org/" target="_blank">
+          <img src="https://acespace.org/wp-content/uploads/2021/08/red-aqua-black_vertical.png" class="npoIMG">
+      </a>
+     </section>
+
+      <div class="npoTitle">
+         <h1 class= "npoSuggestTitle">Non-Profits <br> Fighting Climate Change</h1>
+      </div>
+  </div>
+</div>
+  
+</body>
